@@ -476,11 +476,20 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="form-div">
-                        <label class="footer-lab" for="user-comment"> Comment </label>
-                        <div class="div-modal-icon">
-                            <input class="input" id="user-comment" name="user-comment" type="text" />
-                        </div>
+                    <div class="div-modal-comment">
+                        <label class="footer-lab " for="user-comment" > Comment </label>
+                        <textarea class="textarea" id="user-comment" name="user-comment" placeholder="Text input">
+                        </textarea>
+                      <div class="cheakbox-div">
+<input  id="user-privacy" type="checkbox" value="true"  name="user-privacy" class="visually-hidden"/>
+<label class="text-privacy" for="user-privacy">
+   I accept the terms and conditions of the<span class="span"><svg width="10" height="8">
+<use href="/images/icons.svg#check">
+
+</use>
+   </svg> </span><a class="modal-a" href="#"> Privacy Policy</a>
+</label>
+                      </div>
                     </div>
                 </form>
             </div>
