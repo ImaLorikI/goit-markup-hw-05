@@ -558,7 +558,7 @@ margin: 0 0 8px 0;
 }
 
 .formall {
-    margin: 0 0 16px 0;
+    margin:0;
     margin-left: 80px;
 }
 .footer-label {
@@ -610,7 +610,7 @@ font-size: 12px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 padding-left: 16px;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 color: #ffffff;
 }
@@ -693,6 +693,9 @@ border: none;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.64px;
+        font-family: "Roboto",sans-serif;
+        cursor:pointer;
+
 }
 
 .paragraf-modal{
