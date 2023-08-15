@@ -19,6 +19,10 @@ body{
 img{
     display: block;
 }
+.link-logo{
+    text-decoration: none;
+        margin: 0;
+}
 .link {
     text-decoration: none;
     margin: 0;
@@ -574,9 +578,6 @@ input::placeholder {
 }
 .text {
     margin: 0;
-    font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
         font-weight: 500;
         line-height: 1.5;
     letter-spacing: 0.02em;
@@ -587,8 +588,6 @@ margin-bottom: 16px;
     min-width: 165px;
     height: 40px;
     display: flex;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -600,6 +599,9 @@ margin-bottom: 16px;
         background-color: #4D5AE5;
         border: none;
         border-radius: 4px;
+}
+.subm-butt:focus,.subm-butt:hover{
+background-color: var(--hover);
 }
 .label-email{
 width: 264px;
@@ -680,34 +682,29 @@ min-width:  169px ;
 display: block;
     padding: 16px 32px;
 border: none;
-    gap: 10px;
     border-radius: 4px;
         background:  #4D5AE5;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color:  #FFF;
         text-align: center;
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
         font-weight: 500;
         line-height: 24px;
-        letter-spacing: 0.64px;
-        font-family: "Roboto",sans-serif;
+        letter-spacing:0.020em;
         cursor:pointer;
 
+}
+.button-portfolio:hover , .button-portfolio:focus{
+    background-color: var(--hover);
 }
 
 .paragraf-modal{
     color: #2E2F42;
 margin:0 0 16px 0;
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
         font-weight: 500;
         line-height: 24px;
         text-align: center;
-        letter-spacing: 0.32px;
+        letter-spacing: 0.010em;
 }
 .form-div{
     margin-bottom: 8px;
